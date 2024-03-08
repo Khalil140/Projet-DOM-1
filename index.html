@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier en Javascript</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="panier">
+    <div class="article">
+      <img src="images/MAillot-Senegal-jaune.jpg" alt="Maillo senegal">
+      <div class="info">
+        <span class="ajou">Ajouter au panier</span>
+        <div class="actions">
+          <button class="moins">-</button>
+          <span class="quantity">1</span>
+          <button class="plus">+</button>
+          <button class="remove">Supprimer</button>
+          <button class="like"><i id="modif1" class="fa fa-heart" style="font-size:20px;color:red"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="article">
+      <img src="images/maillot-senegal-vert.jpg" alt="Maillo senegal">
+      <div class="info">
+        <span class="ajou">Ajouter au panier</span>
+        <div class="actions">
+          <button class="moins">-</button>
+          <span class="quantity">1</span>
+          <button class="plus">+</button>
+          <button class="remove">Supprimer</button>
+          <button class="like"><i id="modif2" class="fa fa-heart" style="font-size:20px;color:red"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="total">
+      <span>Prix Total:</span>
+      <span class="total-price">0</span> FCFA
+    </div>
+  </div>
+
+  <script src="panier.js"></script>
+</body>
+</html>
